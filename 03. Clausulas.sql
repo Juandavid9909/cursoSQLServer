@@ -37,7 +37,7 @@ SELECT TOP 1 * FROM Maestro WHERE MaestroID = 3 ORDER BY MaestroID DESC;
 SELECT DISTINCT Apellido FROM Maestro;
 SELECT DISTINCT Direccion FROM Maestro;
 
---UPDATE Maestro SET Direccion = 'San Pedro' WHERE MaestroID = 4;
+UPDATE Maestro SET Direccion = 'San Pedro' WHERE MaestroID = 4;
 
 -- Agrupar datos (Los datos de select deben estar en GROUP BY)
 SELECT DISTINCT Apellido, Direccion FROM Maestro;
